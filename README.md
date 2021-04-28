@@ -4,7 +4,7 @@ Dataset: https://static.openfoodfacts.org/data/en.openfoodfacts.org.products.csv
 
 Context/Scenario: "Santé publique France" agency has launched a call for projects to find innovative ideas for applications related to food. You wish to participate and propose an idea for an application.
 
-Problem: 24% of GHG comes from food production
+Problem: Find origin of healthy and low carbon food products
 
 Methods:
 1. Clean the dataset (outlier identification, NA ratio)
