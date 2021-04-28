@@ -1,7 +1,19 @@
-# P3
+# POC - Help the customers to identify healthy and low carbon food products
 
-The project was to work with openfoodfacts dataset to provide healthy informations for an app development projects.
+Dataset: https://static.openfoodfacts.org/data/en.openfoodfacts.org.products.csv
 
-My work was dedicated to evaluate product characteristics (fat, salt, sugar and carbon footprint) and help consumer to choose healthy & green product. In October 2020, only 7k/930k products had carbon footprint information, now Yuka and openfoodfacts add 250k products with Eco-score.
+Context/Scenario: "Santé publique France" agency has launched a call for projects to find innovative ideas for applications related to food. You wish to participate and propose an idea for an application.
 
-It's great to see impolementations of my idea in a real dataset. It provides consumers important informations about environmental choice in food shopping.
+Problem: 24% of GHG comes from food production
+
+Methods:
+1. Clean the dataset (outlier identification, NA ratio)
+2. Extract pertinent features
+3. Do univariate and multivariate analysis
+4. Do statistical analysis
+
+Results:
+1. Identification of brands with high GHG products
+2. Highlighting categories of products with low carbon footprint and good nutriscore
+
+Libraries: Pandas, Numpy, Matplotlib, Seaborn, Scipy
